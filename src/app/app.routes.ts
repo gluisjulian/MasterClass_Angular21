@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { Home } from './screens/home/home';
 import { Contador } from './screens/contador/contador';
+import { CalculadoraComponent } from './screens/calculadora/calculadora.component';
 
 export const routes: Routes = [
   {
@@ -10,6 +11,10 @@ export const routes: Routes = [
   {
     path: 'contador',
     component: Contador
+  },
+   {
+    path: 'calculadora',
+    component: CalculadoraComponent
   },
   {
     //Carrega rota LAZY LOAD
